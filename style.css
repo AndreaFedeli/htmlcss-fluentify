@@ -1,0 +1,164 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.clearfix::after{
+  content:'';
+  clear: both;
+  display: table;
+
+}
+
+.container-fullwidth{
+  background-color:#0c325a;
+  height: 400px;
+}
+
+.container{
+  width: 70%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+.container.background{
+  background-image:url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-color: #0c325a;
+}
+
+.blu{
+  background-color:#0c325a;
+  height: 400px;
+}
+
+.grigio{
+  height: 100px;
+  background-color: grey;
+
+}
+
+.bianco{
+  height: 400px;
+  background-color: white;
+}
+
+
+
+
+nav{
+  height: 70px;
+
+  line-height: 70px;
+
+
+}
+
+.logo{
+  height:70px;
+  vertical-align: middle;
+}
+
+ul{
+  text-align: justify;
+  display: inline;
+}
+
+li{
+  display: inline-block;
+  margin-left: 5px;
+  border-top: : 5px;
+  font-size: 70%;
+  color: white;
+}
+
+span{
+  margin-left: 80px;
+  font-size: 70%;
+  color: white;
+}
+
+.button1{
+height: 40px;
+width: 110px;
+background-color: blue;
+color: white;
+border: 1px solid white;
+margin-left: 10px;
+font-size: 60%;
+border-radius: 10px;
+}
+
+.button2{
+  height: 40px;
+  width: 110px;
+  background-color: chartreuse;
+  color: white;
+  margin-left: 10px;
+  font-size: 60%;
+  border-radius: 10px;
+}
+
+
+.banner{
+  height:530px;
+
+}
+
+.testo-banner{
+  width:50%;
+  height: 100%;
+  top: 50%;
+  left:50%;
+  text-align: left;
+  border-bottom: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
+  color: white;
+  font-size: 200%;
+  font-style: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+.box{
+  width: 33.3333%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+  padding-left: 10px;
+  text-align: center;
+}
+
+
+.box1{
+width: 33.3333%;
+height: 100%;
+border: 1px solid white;
+float: left;
+padding-left: 10px;
+text-align: center;
+
+}
+
+
+
+
+h3{
+  text-align: center;
+  color: limegreen;
+}
